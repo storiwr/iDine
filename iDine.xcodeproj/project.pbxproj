@@ -19,6 +19,7 @@
 		DCA140C5271CAA3B00D6215E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA140C4271CAA3B00D6215E /* ItemDetail.swift */; };
 		DCA140C7271CB09900D6215E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA140C6271CB09900D6215E /* OrderView.swift */; };
 		DCA140C9271CB21100D6215E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA140C8271CB21100D6215E /* MainView.swift */; };
+		DCA140CB271CB4F800D6215E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA140CA271CB4F800D6215E /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DCA140C4271CAA3B00D6215E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		DCA140C6271CB09900D6215E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		DCA140C8271CB21100D6215E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DCA140CA271CB4F800D6215E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				DCA140C4271CAA3B00D6215E /* ItemDetail.swift */,
 				DCA140C6271CB09900D6215E /* OrderView.swift */,
 				DCA140C8271CB21100D6215E /* MainView.swift */,
+				DCA140CA271CB4F800D6215E /* CheckoutView.swift */,
 				DCA140C2271C9C5F00D6215E /* ItemRow.swift */,
 				DCA140BA271C921000D6215E /* Helper.swift */,
 				DCA140BC271C923600D6215E /* Menu.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				DCA140C5271CAA3B00D6215E /* ItemDetail.swift in Sources */,
 				DCA140C9271CB21100D6215E /* MainView.swift in Sources */,
+				DCA140CB271CB4F800D6215E /* CheckoutView.swift in Sources */,
 				DCA140C7271CB09900D6215E /* OrderView.swift in Sources */,
 				DCA140AF271C914900D6215E /* ContentView.swift in Sources */,
 				DCA140AD271C914900D6215E /* iDineApp.swift in Sources */,
