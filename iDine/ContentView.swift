@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    let menu = Bundle.main.decode([MenuSection].self, from: "menu.json") //Uses helper to unpack json data I think
     var body: some View {
         NavigationView {
-            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                Text("Hello, world!")
-                    .padding()
+            List {
+                ForEach(menu) { section in
+                    Section(header: Text(section.name)) {
+                        ForEach(section.items) {item in
+                            Text(item.name)
+                        }
+                        .padding()
+                    }
+                }
             }
             .navigationTitle("Menu")
+            .listStyle(GroupedListStyle()) //Redundant but learning
         }
     }
 }
